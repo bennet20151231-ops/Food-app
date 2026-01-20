@@ -1,0 +1,65 @@
+footer{
+    background-color: rgb(39, 37, 37);
+    color: #fff;
+    padding: 75px 60px;
+    display: flex;
+    justify-content: center;
+}
+.imoportlink{
+    width: 500px;
+    padding: 10px 14px;
+}
+.imoportlink p{
+    text-align: center;
+}
+.imoportlink h2{
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+}
+footer ul li{
+    list-style-type: none;
+    padding: 10px 5px;
+}
+footer ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+footer ul li i{
+    font-size: 20px;
+    padding: 0 8px;
+    color: aqua;
+}
+footer a:hover{
+    color: rgb(104, 104, 222);
+}
+.socil{
+    text-align: center;
+}
+.socil ul li{
+    display: inline-block;
+}
+.footerlast{
+    background-color:  rgb(39, 37, 37);
+    color: #fff;
+    text-align: center;
+}
+.footerlast p{
+    padding: 10px;
+}
+
+
+
+
+
+@media (min-width:320px) and (max-width:480px){
+    footer{
+        display: block;
+        text-align: left;
+    }
+    .imoportlink{
+        width: inherit;
+        padding: 10px 0;
+    }
+}

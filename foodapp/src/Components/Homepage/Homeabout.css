@@ -1,0 +1,38 @@
+.homeabout{
+    padding: 75px 60px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftpart{
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    margin: 15px 10px;
+}
+.leftpart img{
+    width: 300px;
+}
+.rightpart{
+     width: 600px;
+    padding: 20px;
+    margin: 15px 10px;
+}
+.rightpart h1{
+    padding: 10px;
+    font-size: 36px;
+}
+.rightpart p{
+    padding: 10px;
+    font-size: 16px;
+}
+@media (min-width:320px) and (max-width:480px){
+    .homeabout{
+        padding: 75px 0;
+        display: block;
+    }
+    .leftpart,.rightpart{
+        width: inherit;
+    }
+}

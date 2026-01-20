@@ -1,0 +1,32 @@
+.homecontact{
+    padding: 75px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formleftpart,.formright{
+    width: 600px;
+    margin: 15px 10px;
+    padding: 20px;
+}
+.inputs{
+    margin: 10px 0;
+}
+.inputs label{
+    font-size: 18px;
+    padding: 10px 5px;
+}
+.inputs input{
+    width: 100%;
+    padding: 10px 5px;
+}
+@media (min-width:320px) and (max-width:480px){
+    .homecontact{
+        display: block;
+        padding: 75px 0;
+    }
+    .formleftpart,.formright{
+        width: inherit;
+    }
+}

@@ -1,0 +1,46 @@
+.herosec{
+    background-image: url("../../Assets/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 75px 60px;
+}
+.herocontent{
+    padding: 25px;
+    margin: 10px 15px;
+    width: 500px;
+    color: #fff;
+}
+.herocontent h1{
+    font-size: 30px;
+    padding: 10px;
+}
+.herocontent p{
+    font-size: 16px;
+    padding: 10px;
+}
+.herocontent button{
+    padding: 15px 35px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(242, 197, 34);
+}
+@media (min-width:320px) and (max-width:480px){
+    .herosec{
+        padding: 50px 0;
+    }
+    .herocontent{
+        width: inherit;
+    }
+    .herocontent h1{
+        font-size: 20px;
+    }
+    .herocontent p{
+        font-size: 14px
+    }
+}
