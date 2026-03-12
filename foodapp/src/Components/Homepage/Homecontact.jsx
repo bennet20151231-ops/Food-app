@@ -51,7 +51,15 @@ export default function Homecontact() {
             </form>
         </div>
         <div className="formright">
-            <div style={{width: "100%"}}><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=chennai+(FoodApp)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/it/calcola-la-popolazione-su-una-mappa/">popolazione comuni Italia mappa interattiva</a></iframe></div>
+            <div style={{width: "100%"}}>
+                <iframe
+                    title="Google Map Location"
+                    src="https://maps.google.com/..."
+                    width="600"
+                    height="450"
+                    style={{ border: 0 }}
+                    ></iframe>
+                </div>
         </div>
     </section>
   )
